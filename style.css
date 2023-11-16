@@ -148,6 +148,9 @@ body {
 .card-product .thumb {
     position: relative;
 }
+.card-product .thumb img {
+    border-radius: 10px 10px 0 0;
+}
 .card-product .sale {
     position: absolute;
     top: 10px;
@@ -252,10 +255,15 @@ body {
     margin-bottom: 10px;
     padding-bottom: 10px;
 }
-.healthy .list button {
+.healthy .list .btn {
     font-size: 20px;
     margin-top: 30px;
     padding: 5px 20px 8px;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #f5f4ff;
+    color: var(--primary-color);
+    font-weight: 500;
 }
 .banner .card {
     margin-bottom: 15px;
@@ -416,5 +424,10 @@ body {
     }
     .news {
         margin: 30px 0 !important;
+    }
+    .navbar .navbar-icon a {
+        margin-left: 5px;
+        padding: 10px;
+        font-size: 12px;
     }
 }
